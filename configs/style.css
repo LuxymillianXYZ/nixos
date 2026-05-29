@@ -1,0 +1,40 @@
+window#waybar {
+    font-family: "Maple Mono NF", "Maple Mono Nerd Font", monospace;
+    font-size: 13px;
+    font-weight: bold;
+    
+    background-color: #1a1b26; 
+    color: #c0caf5;            
+    border-bottom: 2px solid #414868;
+}
+
+.modules-left > widget,
+.modules-right > widget {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 6px;
+}
+
+/* Niri workspace styling */
+#workspaces button {
+    font-family: "Maple Mono NF", "Maple Mono Nerd Font", monospace;
+    padding: 0 6px;
+    color: #565f89;           /* Inactive workspaces: Muted Gray */
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#workspaces button.active {
+    color: #7dcfff;           /* Active workspace: Clean, light Tokyo Cyan/Blue */
+    border: none;             
+    box-shadow: none;
+}
+
+#workspaces button.urgent {
+    color: #f7768e;           /* Urgent workspace: Tokyo Red */
+}
+
+#custom-riverst {
+    color: #c0caf5;
+}

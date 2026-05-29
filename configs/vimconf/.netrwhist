@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/luxymillian/code/rustlearn/learn2/squirt/src'
+let g:netrw_dirhist_8='/home/luxymillian/code/rustlearn/learn2/squirt'
+let g:netrw_dirhist_7='/home/luxymillian/code/rustlearn/learn2/squirt/src'
+let g:netrw_dirhist_6='/home/luxymillian/code/rustlearn/learn2/squirt'
+let g:netrw_dirhist_5='/home/luxymillian/code/rustlearn/learn2/squirt/src'
+let g:netrw_dirhist_4='/home/luxymillian/code/rustlearn/learn2/squirt'
+let g:netrw_dirhist_3='/home/luxymillian/code/rustlearn/learn2/squirt/src'
+let g:netrw_dirhist_2='/home/luxymillian/code/rustlearn/learn2/squirt'
+let g:netrw_dirhist_1='/home/luxymillian/code/rustlearn/learn2/squirt/src'
+let g:netrw_dirhist_0='/home/luxymillian/code/rustlearn/learn2/squirt'

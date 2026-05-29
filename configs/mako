@@ -1,0 +1,19 @@
+# Background color: #171716
+background-color=#171716ff
+
+# Text color: Soft icy blue/grey
+text-color=#c8d3dfff
+
+# Border color: Muted water blue
+border-color=#6a95a5ff
+
+# Border thickness
+border-size=2
+
+# Set corner radius to 0 for sharp corners (no rounding)
+border-radius=0
+
+# Font matching your Fuzzel config
+font=Maple Mono NF bold 12
+
+default-timeout=5000

@@ -1,0 +1,43 @@
+{
+  "layer": "bottom",
+  "position": "bottom",
+  "height": 32,
+  "spacing": 0,
+  "margin-top": 0,
+  "margin-bottom": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+
+  // Swapped to Niri modules on the left
+  "modules-left": [
+    "niri/workspaces",
+    "niri/window"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "custom/riverst",
+    "custom/power"
+  ],
+
+  "niri/workspaces": {
+    "all-outputs": true
+  },
+
+  "niri/window": {
+    "format": "{}",
+    "max-length": 30,
+    "tooltip": false
+  },
+
+  "custom/riverst": {
+    "exec": "bash ~/nirist.sh",
+    "format": "{}",
+    "tooltip": false
+  },
+
+  "custom/power": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "bash ~/powermenu.sh"
+  }
+}
